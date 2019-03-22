@@ -1,0 +1,37 @@
+name: "Introduction to Data Science"
+navbar:
+  title: "Introduction to Data Science Summer 2018"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Part I"
+      menu: 
+        - text: "Overview"
+          href: 01-part1-overview.html
+        - text: "Introduction to R and RStudio"
+          href: 01-rstudio.html
+        - text: "R Coding Basics"
+          href: 02-coding.html
+        - text: "Data Science Best Practices"
+          href: 02-ds-best-practices.html
+        - text: "Working with Maps and GIS data"
+          href: 02-gis.html
+        
+          
+
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    mathjax: null
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+    includes:
+      in_header: include_head.html
+      #before_body: include_header.html
+      #after_body: include_footer.html
+    #css: css/rmarkdown.css
+output_dir: "docs"
