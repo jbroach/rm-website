@@ -1,6 +1,6 @@
 name: "Introduction to Data Science"
 navbar:
-  title: "Introduction to Data Science Summer 2018"
+  title: "Introduction to Data Science Spring 2019"
   left:
     - text: "Home"
       href: index.html
@@ -18,8 +18,15 @@ navbar:
           href: 02-ds-best-practices.html
         - text: "Working with Maps and GIS data"
           href: 02-gis.html
-        
-          
+        - text: "Version Control with Git"
+          href: 03-git.html
+        - text: "Creating R Packages"
+          href: 04-package.html
+        - text: "R Markdown"
+          href: 05-rmarkdown.html
+    - text: Part II
+      menu:
+        - text: "TODO"
 
 output:
   html_document:
